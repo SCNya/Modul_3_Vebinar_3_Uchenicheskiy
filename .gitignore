@@ -1,0 +1,9 @@
+.vscode/**
+adapters/**
+bin/**
+lib/**
+share/**
+
+.DS_Store
+
+pyvenv.cfg

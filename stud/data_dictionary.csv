@@ -1,0 +1,32 @@
+file,column,description,type
+users.csv,reader_id,Идентификатор читателя,строка
+users.csv,age_group,Возрастная группа читателя,категория
+users.csv,reading_level,Уровень чтения,категория
+users.csv,favorite_genre,Любимый жанр,категория
+users.csv,preferred_length,Предпочитаемый объём книги,категория
+books.csv,book_id,Идентификатор книги,строка
+books.csv,title,Название книги,строка
+books.csv,author_id,Идентификатор автора,строка
+books.csv,author_name,Имя автора,строка
+books.csv,genre,Жанр книги,категория
+books.csv,difficulty,Уровень сложности,категория
+books.csv,length_group,Объём книги,категория
+books.csv,age_group,Рекомендуемая возрастная группа,категория
+books.csv,description,Краткое учебное описание,строка
+interactions.jsonl,reader_id,Идентификатор читателя,строка
+interactions.jsonl,period,Номер исторического периода,целое
+interactions.jsonl,book_id,Выбранная книга,строка
+interactions.jsonl,rating,Оценка от 1 до 5,целое
+candidates.csv,reader_id,Идентификатор читателя,строка
+candidates.csv,target_period,"Период, для которого строится рекомендация",целое
+candidates.csv,book_id,Книга-кандидат,строка
+candidates.csv,split,"Часть данных: train, valid или test",категория
+train_choices.jsonl,reader_id,Идентификатор читателя,строка
+train_choices.jsonl,period,Целевой период,целое
+train_choices.jsonl,book_id,Фактически выбранная книга,строка
+train_choices.jsonl,choice_rank,Место книги среди пяти выборов,целое
+train_choices.jsonl,rating,Оценка выбранной книги,целое
+valid_solution.csv,reader_id,Идентификатор читателя,строка
+valid_solution.csv,recommendations,Пять правильных книг в порядке полезности,строка
+sample_submission.csv,reader_id,Идентификатор читателя,строка
+sample_submission.csv,recommendations,Пять рекомендаций через пробел,строка
